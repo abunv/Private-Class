@@ -81,6 +81,7 @@ button {
 /* Started section */
 .started {
     padding-top: 123px;
+    padding-bottom: 40px;
 }
 .started .container {
     display: flex;
@@ -234,4 +235,44 @@ button {
     line-height: 26px;
     letter-spacing: -0.24px;
     color: rgba(1, 16, 50, 0.6);
+}
+
+/* About Section */
+.about {
+    padding: 80px 0px;
+}
+
+.about .container {
+    display: flex;
+    align-items: center;
+}
+
+.about__img {
+    height: 544px;
+    background-color: #ccc;
+    flex-basis: 534px;
+    margin-right: 67px;
+    max-width: 534px;
+}
+
+.about__info {
+    max-width: 534px;
+}
+
+.about__title {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #011032;
+    margin-bottom: 16px;
+}
+
+.about__lvl {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 1.2px;
+    color: #6E63EA;
+    margin-bottom: 24px;
 }
