@@ -276,3 +276,49 @@ button {
     color: #6E63EA;
     margin-bottom: 24px;
 }
+
+/* Meet Section */
+.meet {
+    padding-top: 48px;
+    padding-bottom: 112px;
+}
+
+.meet__card {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.38px;
+    color: #011032;
+}
+
+.meet__img {
+    height: 276px;
+    width: 276px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-bottom: 24px;
+}
+
+/* Feed Section */
+.feed .container {
+    padding: 70px 0px;
+    background-color: #DEDCF1;
+}
+
+
+.feed__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 640px;
+    margin: auto;
+}
+
+.feed__form input {
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 14px 24px;
+    font-size: 15px;
+    margin-bottom: 24px;
+    border: 0;
+}
