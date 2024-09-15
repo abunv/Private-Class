@@ -322,3 +322,67 @@ button {
     margin-bottom: 24px;
     border: 0;
 }
+/* Quote Section */
+.quote {
+    padding: 80px 0px;
+}
+
+.quote .container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.quote__left {
+    flex-basis: 41.666%;
+    margin-right: 20px;
+}
+
+.quote__right {
+    flex-basis: 53%;
+}
+
+.quote__pict {
+    margin-bottom: 40px;
+}
+
+.quote__text {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(1, 16, 50, 0.6);
+    line-height: 26px;
+    letter-spacing: -0.24px;
+    margin-bottom: 24px;
+}
+
+.quote__name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #5046C7;
+    line-height: 24px;
+    letter-spacing: 0.38px;
+}
+
+.quote__lvl {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(1, 16, 50, 0.6);
+    line-height: 20px;
+    letter-spacing: -0.24px;
+}
+
+.quote__img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.quote__person {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.quote .btitle {
+    margin-bottom: 0;
+}
