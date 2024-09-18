@@ -250,9 +250,9 @@ button {
 .about__img {
     height: 544px;
     background-color: #ccc;
-    flex-basis: 534px;
+    flex-basis: 400px;
     margin-right: 67px;
-    max-width: 534px;
+    max-width: 400px;
 }
 
 .about__info {
@@ -293,8 +293,10 @@ button {
 }
 
 .meet__img {
-    height: 276px;
-    width: 276px;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
     border-radius: 50%;
     background-color: #ccc;
     margin-bottom: 24px;
