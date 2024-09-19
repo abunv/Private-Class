@@ -288,14 +288,13 @@
     .footer__top ul a {
         margin-bottom: 10px;
     }
-
+    .footer__item,
     .col-md-6 {
         flex-basis: 50%;
         max-width: 50%;
         width: 50%;
     }
 
-    .footer__item,
     .col-sm-12 {
         flex-basis: 100%;
         max-width: 100%;
@@ -304,6 +303,19 @@
 
      .footer__bottom {
         margin-top: 20px;
+    }
+
+    .footer__logo {
+        font-size: 13px;
+    }
+
+    .footer__social a {
+        font-size: 20px;
+    }
+
+    .footer__copy {
+        font-size: 14px;
+        opacity: 0.6;
     }
 }
 @media only screen and (max-width:375px) {
