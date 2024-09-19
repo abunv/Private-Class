@@ -226,6 +226,14 @@
         display: none;
     }
 
+    .about__info {
+        flex-basis: 100%;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
     .about__info .btitle,
     .about__lvl {
         margin-bottom: 10px;
@@ -261,14 +269,6 @@
 
     .started__btns .btn, .play {
         padding: 10px;
-    }
-
-    .about__info {
-        flex-basis: 100%;
-        max-width: 100%;
-        width: 100%;
-        text-align: center;
-        padding: 0;
     }
 
     .meet__img {
